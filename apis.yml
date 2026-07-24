@@ -1,8 +1,15 @@
 aid: camion
 name: Camion
-description: 'Camion is a company surfaced as a portfolio company of eqt-ventures and added to the API
-  Evangelist network as a stub for enrichment. Sector: energy-and-environmental. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'Camion is an infrastructure-intelligence platform accelerating the electrification
+  of real estate portfolios. Its AI-driven platform indexes properties by their readiness
+  and potential for electrification, forecasts energy demand, and optimizes the placement
+  of solar, storage, and EV-charging infrastructure so the largest real estate owners
+  and infrastructure developers can underwrite and deploy energy upgrades at scale.
+  Camion positions itself as an "always-on energy department" that delivers consultant-grade
+  investment cases without manual dashboard monitoring. Founded in 2023 and based in
+  London, Camion raised a EUR 2.7M pre-seed round led by EQT Ventures in April 2024.
+  Sector: energy-and-environmental. This profile was added to the API Evangelist network
+  as a portfolio-lead stub; Camion publishes no public developer or API surface at this time.'
 url: https://raw.githubusercontent.com/api-evangelist/camion/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +17,30 @@ x-backed-by:
 - eqt-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://camionenergy.imgix.net/media/pages/home/bbbe60e395-1709759771/628px__fast-pace_road-1.jpg?auto=format&w=1200&h=630&quality=80&crop=center
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Energy And Environmental
+- Electrification
+- Real Estate
+- EV Charging
+- Cleantech
+- Infrastructure Intelligence
+- Energy Transition
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +50,24 @@ maintainers:
 common:
 - type: Website
   url: https://www.camion.energy/
+- type: About
+  url: https://www.camion.energy/about
+- type: Product
+  url: https://www.camion.energy/product
+- type: Blog
+  url: https://www.camion.energy/news
+- type: PrivacyPolicy
+  url: https://www.camion.energy/@/page/a4wuQJ06jMU5EqH6
+- type: Careers
+  url: https://camion.notion.site/Jobs-board-bc93878626f3484a8b254cede1676b4a
+- type: LinkedIn
+  url: https://www.linkedin.com/company/camion-energy
+- type: DomainSecurity
+  url: security/camion-domain-security.yml
+- type: LLMsTxt
+  url: llms/camion-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
