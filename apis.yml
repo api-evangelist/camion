@@ -29,7 +29,7 @@ accessModel:
   generated: '2026-07-22'
   method: derived
 image: https://camionenergy.imgix.net/media/pages/home/bbbe60e395-1709759771/628px__fast-pace_road-1.jpg?auto=format&w=1200&h=630&quality=80&crop=center
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-18'
 tags:
